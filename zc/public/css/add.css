@@ -1,0 +1,112 @@
+.top-nav {
+	border-bottom: 1px solid #f1f1f1;
+	height: 71px;
+}
+.zc-add {
+	background-color: #f6f7f8;
+	padding: 30px 0;
+}
+.zc-add-menu {
+    border: 1px solid #d9d9d9;
+    float: left;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+.zc-add-menu li:first-child {
+	border-left: 0;
+}
+.zc-add-menu li {
+	float: left;
+	background-color: #FFF;
+	border-left: 1px solid #d9d9d9;
+	font-size: 16px;
+	padding: 15px 30px;
+}
+.zc-add-menu .select,.zc-add-menu li:hover {
+	background: #eee;
+    color: #999;
+    cursor: pointer;
+}
+.zc-add-con {
+	background-color: #FFF;
+	margin-top: 30px;
+	padding: 10px 200px 50px 200px;
+}
+.zc-add-con h3 {
+	font-size: 17px;
+	border-bottom: 2px solid #e3e3e3;
+	padding: 5px 0;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.zc-add-con-1 {
+	display: none;
+}
+.zc-add-con-1 div {
+	margin: 10px 0;
+}
+.form input[type=text],.form input[type=password]{
+    padding: 10px;
+    border: 1px solid #cccccc;
+    box-shadow: 0px 2px 1px rgba(4, 0, 0, 0.05) inset;
+    border-radius: 3px;
+    width: 100%;
+}
+.form input[type=checkbox] {
+	vertical-align: middle;
+}
+.form select {
+	padding: 10px;
+    border: 1px solid #cccccc;
+    box-shadow: 0px 2px 1px rgba(4, 0, 0, 0.05) inset;
+    border-radius: 3px;
+    width: 30%;
+}
+.zc-add-con-1 .zc-add-btn {
+	margin-top: 80px;
+	text-align: center;
+}
+.zc-add-con-1 textarea {
+	width: 90%;
+    height: 125px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 1px rgba(4, 0, 0, 0.05) inset;
+    padding: 10px;
+    overflow: auto;
+    vertical-align: top;
+    resize: none;
+}
+.zc-add-con-1 .warnning {
+	border: 1px solid #ffe2b9;
+    background-color: #fff9e1;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+    color: #938a63;
+    border-radius: 5px;
+}
+.zc-add-con-1 .hb-list dt {
+	font-weight: bold;
+	font-size: 16px;
+	margin: 20px 0;
+}
+.zc-add-con-1 .hb-list dd {
+	background-color: #f4f4f4;
+	padding: 20px;
+}
+.zc-add-con-1 .hb-add-btn {
+	text-align: center;
+	margin-top: 20px;
+}
+.hb-add-btn a {
+	font-size: 16px;
+	color: #55b5ff;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.hb-list .form-tip input {
+	width: 50%;
+}
+.hb-list .form-tip {
+	color: #AAA;
+}

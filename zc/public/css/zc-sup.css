@@ -1,0 +1,125 @@
+.top-nav {
+	border-bottom: 1px solid #f1f1f1;
+	height: 71px;
+}
+.zc-add {
+	background-color: #f6f7f8;
+	padding: 5px 0;
+}
+.zc-add-con {
+	background-color: #FFF;
+	margin-top: 30px;
+	padding: 10px 200px 50px 200px;
+}
+.zc-add-con h3 {
+	font-size: 17px;
+	border-bottom: 2px solid #e3e3e3;
+	padding: 5px 0;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.zc-add-con-1 div {
+	margin: 10px 0;
+}
+.form input[type=text],.form input[type=password]{
+    padding: 10px;
+    border: 1px solid #cccccc;
+    box-shadow: 0px 2px 1px rgba(4, 0, 0, 0.05) inset;
+    border-radius: 3px;
+    width: 100%;
+}
+.form input[type=checkbox] {
+	vertical-align: middle;
+}
+.form select {
+	padding: 10px;
+    border: 1px solid #cccccc;
+    box-shadow: 0px 2px 1px rgba(4, 0, 0, 0.05) inset;
+    border-radius: 3px;
+    width: 30%;
+}
+.zc-add-con-1 .zc-add-btn {
+	margin-top: 20px;
+	text-align: center;
+}
+.zc-add-con-1 textarea {
+	width: 90%;
+    height: 125px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 1px rgba(4, 0, 0, 0.05) inset;
+    padding: 10px;
+    overflow: auto;
+    vertical-align: top;
+    resize: none;
+}
+.zc-add-con-1 .total-pay {
+	font-size: 16px;
+	text-align: right;
+}
+.zc-add-con-1 .total-pay strong {
+	font-size: 26px;
+	color: #50abf2;
+}
+.zc-add-con-1 .fensu strong {
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 20px;
+}
+.zc-add-con-1 .fensu input {
+	width: 100px;
+}
+.zc-add-con-1 .hb-list div {
+	margin: 0;
+}
+/* 回报列表 */
+.hb-list li:first-child {
+	border-top: 3px solid #f1f1f1;
+}
+.hb-list li {
+    border-bottom: 3px solid #f1f1f1;
+    border-left: 3px solid #f1f1f1;
+    border-right: 3px solid #f1f1f1;
+}
+.hb-list li .price {
+	height: 50px;
+	line-height: 50px;
+	padding: 0 15px;
+}
+.hb-list li .price span {
+	font-size: 30px;
+	color: #FFF;
+}
+.hb-list li .price strong {
+	font-family: 'GothamBold','GothamBold1';
+    color: #50abf2;
+    font-size: 24px;
+}
+.hb-list li .title {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 20px 20px 0 20px;
+}
+.hb-list li .desc {
+	color: #888;
+	line-height: 2em;
+	padding: 20px;
+}
+.hb-list li .time {
+	border-top: 1px solid #CCC;
+	width: 84%;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.hb-list li:hover,.hb-list li.select {
+	border-color: #50abf2;
+	cursor: pointer;
+}
+.hb-list li:hover .price,.hb-list li.select .price {
+	background-color: #50abf2;
+}
+.hb-list li:hover .price,.hb-list li:hover .price strong {
+	color: #FFF;
+}
+.hb-list li.select .price,.hb-list li.select .price strong {
+	color: #FFF;
+}

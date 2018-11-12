@@ -1,0 +1,351 @@
+body{
+	background-color: #f5f6f8;
+}
+.top-nav {
+	background-color: #FFF;
+}
+/*众筹内容*/
+.zc-info {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #FFF;
+	border-radius: 3px;
+	border: 1px solid #f1f1f1;
+	position: relative;
+}
+.zc-info .sh-label {
+	position: absolute;
+    width: 84px;
+    height: 84px;
+    background: url(../images/sprite2.png) no-repeat;
+    background-position: 0px -675px;
+    top: 0px;
+    right: 0px;
+}
+.zc-info .head {
+	border-bottom: 1px solid #f1f1f1;
+	padding: 30px;
+}
+.zc-info .info-face {
+	float: left;
+	margin-right: 30px;
+}
+.zc-info .info-face a {
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+}
+.zc-info .info-face img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.zc-info .info-title {
+	float: left;
+}
+.zc-info .info-title1 {
+	font-size: 24px;
+}
+.zc-info .info-author {
+	color: #888;
+}
+.zc-info .info-author span {
+	font-size: 16px;
+	color: #50abf2;
+	font-weight: bold;
+}
+.zc-info .con {
+	padding: 30px;
+    font-family: 'GothamBold','GothamBold1';
+}
+.zc-info .left {
+	float: left;
+}
+.zc-info .right {
+	float: right;
+	width: 410px;
+}
+.zc-info .supnum strong {
+	font-size: 40px;
+}
+.zc-info .money strong {
+	font-size: 40px;
+}
+.zc-info .progress-num {
+	text-align: right;
+	font-weight: bold;
+	font-size: 16px;
+}
+.zc-info .progress {
+	height: 7px;
+	border-radius: 5px;
+	background-color: #EEE;
+	margin: 10px 0;
+}
+.zc-info .progress div {
+    background-color: #50abf2;
+    height: 7px;
+    border-radius: 5px;
+    width: 80%;
+}
+.zc-info .btn {
+	margin-top: 40px;
+}
+.zc-info .btn-banner {
+	background-color: #e7ebef;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 30px;
+}
+.zc-info .btn-banner a {
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+.zc-info .btn-banner a:hover,.zc-info .btn-banner .on {
+	background-color: #FFF;
+	text-decoration: none;
+}
+.zc-desc {
+	padding: 30px;
+}
+.zc-desc .left {
+	float: left;
+	width: 680px;
+}
+.zc-desc .right {
+	float: right;
+	width: 275px;
+}
+.zc-desc .desc-con {
+	margin-bottom: 30px;
+}
+.zc-desc .desc-con h3 {
+	text-align: center;
+}
+.zc-desc .desc-con h3 span {
+	font-size: 18px;
+	color: #50abf2;
+	display: inline-block;
+	border: 3px solid #f1f1f1;
+	padding: 8px 14px;
+	background-color: #FFF;
+	position: relative;
+}
+.zc-desc .desc-con1 {
+	padding-top: 10px;
+	font-size: 13px;
+	line-height: 2em;
+	color: #333;
+}
+.zc-desc .line {
+	height: 4px;
+	background-color: #f1f1f1;
+	position: relative;
+	top: 27px;
+}
+.zc-desc .contact {
+	margin-top: 20px;
+	padding: 20px;
+	border: 3px solid #f1f1f1;
+}
+.sup-list {
+	width: 100%;
+}
+.sup-list thead tr {
+	background-color: #eff3f6;
+}
+.sup-list thead th {
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px;
+}
+.sup-list td {
+	border: 1px solid #eff3f6;
+	text-align: center;
+	padding: 15px 0;
+}
+.sup-list .money {
+	color: #ff6520;
+	font-weight: bold;
+	font-size: 14px;
+}
+.desc-con1 .info {
+	padding: 20px;
+	background-color: #f0f4fa;
+    border: 1px solid #e4e4e4;
+    padding: 20px;
+	margin-top: 30px;
+}
+.desc-con1 .info strong {
+	font-weight: bold;
+	font-size: 18px;
+	margin-right: 80px;
+}
+.desc-con1 .warnning h3 {
+	text-align: left;
+	font-size: 20px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+.desc-con1 .warnning {
+	border: 1px solid #ffe2b9;
+    background-color: #fff9c9;
+    margin-top: 20px;
+    padding: 30px;
+}
+.desc-con1 .warnning ol {
+	padding-left: 15px;
+}
+.hb-list li:first-child {
+	border-top: 3px solid #f1f1f1;
+}
+.hb-list li {
+    border-right: 3px solid #f1f1f1;
+    border-left: 3px solid #f1f1f1;
+    border-bottom: 3px solid #f1f1f1;
+}
+.hb-list li .price {
+	height: 50px;
+	line-height: 50px;
+	padding: 0 15px;
+}
+.hb-list li .price span {
+	font-size: 30px;
+	color: #FFF;
+}
+.hb-list li .price strong {
+	font-family: 'GothamBold','GothamBold1';
+    color: #50abf2;
+    font-size: 24px;
+}
+.hb-list li .title {
+	font-size: 14px;
+	font-weight: bold;
+	padding: 20px 20px 0 20px;
+}
+.hb-list li .desc {
+	color: #888;
+	line-height: 2em;
+	padding: 20px;
+}
+.hb-list li .time {
+	border-top: 1px solid #CCC;
+	width: 84%;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.hb-list li:hover {
+	border-color: #50abf2;
+	cursor: pointer;
+}
+.hb-list li:hover .price {
+	background-color: #50abf2;
+}
+.hb-list li:hover .price,.hb-list li:hover .price strong {
+	color: #FFF;
+}
+/*评论*/
+.pl-list li {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #DDD;
+	margin-bottom: 10px;
+}
+.pl-list li:last-child {
+	border-bottom: 0;
+}
+.pl-list .pl-l {
+	float: left;
+	width: 70px;
+}
+.pl-list .pl-l a {
+	width: 46px;
+	height: 46px;
+	display: inline-block;
+}
+.pl-list .pl-l img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.pl-list .pl-r {
+	float: left;
+	width: 610px;
+}
+.pl-list .pl-r .author {
+	font-size: 14px;
+}
+.pl-list .pl-r .author a {
+	color: #50abf2;
+}
+.pl-list .pl-r .time {
+	font-size: 12px;
+	color: #CCC;
+}
+/*热门推荐*/
+.recommend {
+	background-color: #FFF;
+}
+.recommend .head {
+	height: 38px;
+    line-height: 38px;
+    background-color: #313539;
+    font-size: 14px;
+    text-indent: 25px;
+    color: #fff;
+}
+.recommend .con {
+	padding: 30px;
+}
+.recommend .r-list {
+	border-left: 4px solid #EEE;
+}
+.recommend .r-list li {
+	float: left;
+	padding: 16px;
+	border-top: 4px solid #EEE;
+	border-bottom: 4px solid #EEE;
+	border-right: 4px solid #EEE;
+}
+.recommend .r-title {
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.recommend .r-img a {
+	width: 208px;
+	height: 138px;
+	display: inline-block;
+}
+.recommend .r-img img {
+	width: 100%;
+	height: 100%;
+}
+.recommend .r-txt {
+	color: #888;
+}
+.recommend .r-txt strong {
+	color: #222;
+}
+.pl-list li.pl-form {
+	border: 1px solid #e4e4e4;
+    background-color: #f0f4fa;
+    border-radius: 3px;
+    padding-top: 20px;
+    margin-bottom: 35px;
+}
+.pl-form textarea {
+	width: 605px;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 1px rgba(4,0,0,0.05) inset;
+    padding: 10px;
+}
+.pl-form .pl-l {
+	width: 68px;
+	padding-left: 10px;
+}
+.pl-form .pl-r {
+	width: 608px;
+}

@@ -1,0 +1,110 @@
+.top-nav {
+	border-bottom: 1px solid #f1f1f1;
+	height: 71px;
+}
+.member-body {
+	background-color: #f6f7f8;
+	padding: 30px 0;
+}
+.footer {
+	margin-top: 0;
+}
+.member-body .left {
+	float: left;
+	width: 150px;
+}
+.member-body .right {
+	float: left;
+	border: 1px solid #ededed;
+	border-radius: 3px;
+	background-color: #FFF;
+	padding: 0 20px 20px 20px;
+	width: 890px;
+}
+.member-menu dt {
+	font-size: 13px;
+	font-weight: bold;
+}
+.member-menu dd {
+	margin: 8px;
+	margin-left: 0;
+}
+.member-menu dd a {
+	color: #666666;
+}
+.member-menu .select {
+	color: #50abf2;
+}
+.member-body .right .head {
+	border-bottom: 3px solid #ebeef1;
+    height: 57px;
+}
+.member-body .right li {
+	border-bottom: 3px solid #50abf2;
+	height: 57px;
+	display: inline-block;
+    line-height: 57px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 20px;
+}
+.form input,.form select {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    box-shadow: 0px 2px 1px rgba(4, 0, 0, 0.05) inset;
+}
+.form label {
+	width: 80px;
+	display: inline-block;
+	text-align: right;
+	font-size: 14px;
+	color: #333;
+	margin-right: 10px;
+}
+.form div {
+	margin: 20px 0;
+}
+.form textarea {
+	width: 650px;
+    height: 125px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 1px rgba(4, 0, 0, 0.05) inset;
+    padding: 10px;
+    overflow: auto;
+    vertical-align: top;
+    resize: none;
+}
+table.zc-list {
+	width: 100%;
+	margin-top: 20px;
+}
+table.zc-list thead tr {
+	background-color: #eaebec;
+	border: 1px solid #eceaea;
+    height: 37px;
+}
+table.zc-list .space {
+	height: 10px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+table.zc-list .time {
+	background-color: #f6f7f8;
+    height: 35px;
+    text-indent: 15px;
+    border-top: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+}
+table.zc-list .info {
+	border: 1px solid #e4e4e4;
+    border-top: 1px solid #f0f0f0;
+}
+table.zc-list .info td {
+	padding: 10px 0;
+	text-align: center;
+}
+table.zc-list .info td img {
+	width: 80px;
+    height: 60px;
+}

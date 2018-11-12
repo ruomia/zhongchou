@@ -1,0 +1,125 @@
+/* 容器 */
+.container {
+	width: 1042px;
+    margin: 0px auto;
+}
+.btn-blue {
+	padding: 8px 15px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+    background: #2e86cb;
+    background: -moz-linear-gradient(top, #55b5ff 0%, #2e86cb 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#55b5ff), color-stop(100%,#2e86cb));
+    background: -webkit-linear-gradient(top, #55b5ff 0%,#2e86cb 100%);
+    background: -o-linear-gradient(top, #55b5ff 0%,#2e86cb 100%);
+    background: -ms-linear-gradient(top, #55b5ff 0%,#2e86cb 100%);
+    background: linear-gradient(to bottom, #55b5ff 0%,#2e86cb 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#55b5ff', endColorstr='#2e86cb',GradientType=0 );
+}
+/*翻页*/
+div.page {
+	text-align: center;
+	margin-top: 30px;
+}
+div.page a {
+	padding: 8px 13px;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+}
+.page .active,div.page a:hover {
+	background-color: #50abf2;
+    color: #fff;
+    border-color: #50abf2;
+    text-decoration: none;
+}
+/* 顶部banner */
+.top-banner {
+	height: 35px;
+    line-height: 35px;
+    background-color: #313539;
+}
+/*官方电话*/
+.tel {
+	color: #ccc;
+    padding-left: 15px;
+    background: url(../images/sprite.png) 0px -274px no-repeat;
+}
+/*导航*/
+#logo {
+	margin-right: 10px;
+}
+.top-nav {
+	height: 70px;
+	line-height: 70px;
+}
+.top-nav a {
+	font-size: 14px;
+}
+.top-nav .login-btn a {
+	color: #50abf2;
+}
+#zc-add {
+	margin-left: 100px;
+}
+.logined-btn img {
+	width: 34px;
+    height: 34px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.logined-btn {
+	position: relative;
+	cursor: pointer;
+}
+.logined-btn ul {
+	display: none;
+	background-color: #FFF;
+	position: absolute;
+    right: 0;
+    top: 71px;
+    background-color: #fff;
+    z-index: 10;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    padding-bottom: 12px;
+}
+.logined-btn ul li {
+	height: 37px;
+    line-height: 37px;
+}
+.top-nav .logined-btn ul li a {
+	font-size: 12px;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	padding-left: 10px;
+	color: #888;
+}
+.logined-btn ul li a:hover {
+	background-color: #EEE;
+	text-decoration: none;
+}
+.logined-btn:hover ul {
+	display: block;
+}
+.logined-btn .logined-name {
+	width: 148px;
+    margin: 0 0 8px -1px;
+    height: 47px;
+    line-height: 47px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #55acef;
+    padding-left: 10px;
+}
+/*页脚*/
+.footer {
+	background-color: #1e2229;
+	color: #69798E;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 30px;
+	font-size: 10px;
+}

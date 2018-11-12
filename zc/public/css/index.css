@@ -1,0 +1,98 @@
+/*众筹列表*/
+.zc-section {
+	margin-top: 30px;
+}
+.zc-section h3 {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.zc-section .zc-header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.zc-section .zc-header a:hover {
+	color: #50abf2;
+}
+.zc-section .zc-list {
+	margin-left: -38px;
+}
+.zc-section .zc-list li {
+	width: 320px;
+	float: left;
+    margin-left: 39px;
+    margin-bottom: 30px;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+}
+.zc-section .zc-img img {
+	border-radius: 3px;
+	width: 100%;
+	height: 100%;
+}
+.zc-section .zc-img a {
+	width: 100%;
+	height: 240px;
+	display: inline-block;
+}
+.zc-section .zc-title {
+	font-weight: bold;
+	font-size: 13px;
+	margin: 10px 0;
+}
+.zc-section .zc-con {
+	padding: 10px;
+}
+.zc-section .zc-desc {
+	padding-bottom: 15px;
+	margin: 10px 0;
+	color: #888;
+	border-bottom: 1px dashed #CCC;
+}
+.zc-section .zc-label {
+	background: url(../images/sprite1.png) 0px -90px no-repeat;
+    padding-left: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+.zc-section .zc-label a {
+	color: #888;
+}
+.zc-section .zc-label a:hover {
+	color: #50abf2;
+}
+.zc-section .zc-progress {
+	margin: 10px 0;
+	background-color: #EEE;
+	border-radius: 3px;
+	height: 6px;
+}
+.zc-section .zc-progress div {
+	height: 6px;
+	width: 40%;
+	background-color: #50abf2;
+	border-radius: 3px;
+}
+.zc-section .zc-progress-num span {
+	margin-left: 83px;
+}
+.zc-section .zc-progress-txt {
+	color: #888;
+}
+.zc-section .zc-progress-num p span:first-child {
+	margin-left: 0;
+}
+.zc-section .price {
+	font-weight: bold;
+	color: #ff5001;
+}
+.zc-section .more-btn {
+	text-align: center;
+	display: inline-block;
+	padding: 10px 0;
+	background-color: #EEE;
+	border-radius: 3px;
+	width: 100%;
+	font-size: 14px;
+	color: #888;
+	font-weight: bold;
+}
